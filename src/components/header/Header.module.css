@@ -143,6 +143,16 @@
 
 @media screen and (max-width: 550px) {
 
+    .cont_header {
+        width: 80%;
+        height: 650px;
+        margin-top: 50px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .headerSect_imgBr{
         width: 70%;
         height: max-content;

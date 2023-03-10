@@ -32,7 +32,6 @@
 /* Seccion Texto */
 .adm_text {
     width: 50%;
-    padding: 0 40px;
 }
 
 .adm_title {
@@ -109,7 +108,7 @@
 
     .cont_adm {
         width: 80%;
-        height: 850px;
+        height: 650px;
 
         display: flex;
         flex-direction: column;
