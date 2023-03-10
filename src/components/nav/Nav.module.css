@@ -10,8 +10,10 @@
 .navCont {
     width: 80%;
     height: 90px;
+    background-color: var(--color-fondo);
 
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: space-between;
 }

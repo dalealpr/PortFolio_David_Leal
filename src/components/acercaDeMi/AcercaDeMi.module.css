@@ -1,9 +1,9 @@
 /* VARIABLES */
-:root{
+:root {
     --color-letras: #ffffff;
     --color-titulos: #00eeff;
     --color-burguer: #ffffff;
-    --color-fondo:#1f232d;
+    --color-fondo: #1f232d;
 }
 
 .cont_adm {
@@ -15,6 +15,7 @@
     align-items: center;
 }
 
+/* Seccion IMG */
 
 .admSect_img {
     width: 50%;
@@ -23,28 +24,118 @@
     align-items: center;
 }
 
-.adm_imgFoto{
-  width: 50%;
-  border: 3px solid var(--color-titulos);
+.adm_imgFoto {
+    width: 50%;
+    border: 3px solid var(--color-titulos);
 }
 
-.adm_text{
+/* Seccion Texto */
+.adm_text {
     width: 50%;
     padding: 0 40px;
 }
 
-.adm_title{
+.adm_title {
     font-size: 45px;
     font-weight: 600;
 }
 
-.adm_subt{
+.adm_subt {
     font-size: 35px;
     font-weight: 500;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     color: var(--color-titulos);
 }
 
-.adm_p{
+.adm_p {
     font-size: 21px;
+}
+
+/* MEDIA QUERYES */
+@media screen and (max-width: 1300px) {
+    .adm_imgFoto {
+        width: 60%;
+    }
+
+    .adm_title {
+        font-size: 35px;
+    }
+
+    .adm_subt {
+        font-size: 26px;
+    }
+
+    .adm_p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    .cont_adm {
+        width: 80%;
+        height: 850px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adm_imgFoto {
+        width: 75%;
+        margin-bottom: 40px;
+    }
+
+    .adm_text{
+        width: 65%;
+        padding: 0 40px;
+    }
+
+    .adm_title {
+        font-size: 35px;
+    }
+
+    .adm_subt {
+        font-size: 26px;
+    }
+
+    .adm_p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .cont_adm {
+        width: 80%;
+        height: 850px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adm_imgFoto {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .adm_text{
+        width: 80%;
+        padding: 0 40px;
+    }
+
+    .adm_title {
+        font-size: 30px;
+    }
+
+    .adm_subt {
+        font-size: 22px;
+    }
+
+    .adm_p {
+        font-size: 14px;
+    }
 }
