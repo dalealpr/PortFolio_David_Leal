@@ -34,8 +34,8 @@ function Nav() {
         <h1>Portafolio.</h1>
 
         <ul className={`${styles.navUl} ${clicked ? `${styles.active}`: ''}`}>
-          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#">Inicio</a></li>
-          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#">Acerca de mi</a></li>
+          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#header_cont">Inicio</a></li>
+          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#cont_adm">Acerca de mi</a></li>
           <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#">Formacion</a></li>
           <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#">Habilidades</a></li>
           <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#">Proyectos</a></li>

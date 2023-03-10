@@ -4,7 +4,7 @@ import Foto from '../../img/foto.jpg'
 
 function Header() {
     return (
-        <div className={styles.cont_header}>
+        <div className={styles.cont_header} id='header_cont'>
 
             <section className={styles.headerSect_imgBr}>
                 <img className={styles.header_imgFoto} src={Foto} alt="" />

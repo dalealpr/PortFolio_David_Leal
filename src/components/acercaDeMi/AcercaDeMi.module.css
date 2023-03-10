@@ -1,0 +1,50 @@
+/* VARIABLES */
+:root{
+    --color-letras: #ffffff;
+    --color-titulos: #00eeff;
+    --color-burguer: #ffffff;
+    --color-fondo:#1f232d;
+}
+
+.cont_adm {
+    width: 80%;
+    height: 850px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.admSect_img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adm_imgFoto{
+  width: 50%;
+  border: 3px solid var(--color-titulos);
+}
+
+.adm_text{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.adm_title{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.adm_subt{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom:20px;
+    color: var(--color-titulos);
+}
+
+.adm_p{
+    font-size: 21px;
+}
