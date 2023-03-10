@@ -1,0 +1,136 @@
+/* VARIABLES */
+:root{
+    --color-letras: #ffffff;
+    --color-titulos: #00eeff;
+    --color-burguer: #ffffff;
+    --color-fondo:#1f232d;
+}
+
+/* Contenedor NAV */
+.navCont {
+    width: 80%;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Boton Hamburguesa */
+.burguer {
+    display: none;
+}
+
+
+/* Logo del sitio web */
+.logo {
+    width: 60px;
+}
+
+.navUl {
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Iconos de Sesion y Nav */
+.navAimg {
+    width: 35px;
+}
+
+.navLi {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+/* Enlaces del nav */
+.navA {
+    height: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-letras);
+    display: flex;
+    align-items: center;
+}
+
+.navA:hover {
+    color: var(--color-titulos)
+}
+
+
+/* MEDIA QUERYES */
+@media screen and (max-width: 1300px) {
+    .navCont {
+        width: 90%;
+    }
+
+    .navA {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .navCont {
+        margin-top: 0;
+        width: 90%;
+        height: 70px;
+    }
+
+    .burguer {
+        display: block;
+    }
+
+    .navUl {
+        display: none;
+    }
+
+}
+
+.navUl.active {
+    width: 100%;
+    z-index: 1;
+    height: max-content;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    background: var(--color-titulos);
+}
+
+.navLi.active {
+    margin: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.navA.active {
+    width: 100%;
+    height: 60px;
+    padding-left: 35px;
+    font-size: 17px;
+    background: var(--color-fondo);
+    display: flex;
+    align-items: center;
+}
+
+.navA.active:hover {
+    border-bottom: none
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 23px;
+    }
+
+    .navCont {
+        height: 55px;
+    }
+
+    .navUl.active {
+        top: 55px;
+    }
+}
