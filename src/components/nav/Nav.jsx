@@ -19,6 +19,11 @@ function Nav() {
     setClicked(!clicked)
   }
 
+  const handleClick2 = () => {
+    //Pasa de true a false y viseversa
+    setClicked(false)
+  }
+
   return (
     <div className={styles.navCont}>
 
@@ -29,11 +34,11 @@ function Nav() {
         <h1>Portafolio.</h1>
 
         <ul className={`${styles.navUl} ${clicked ? `${styles.active}`: ''}`}>
-          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick} href="#">Inicio</a></li>
-          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick} href="#">Acerca de mi</a></li>
-          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick} href="#">Formacion</a></li>
-          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick} href="#">Habilidades</a></li>
-          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick} href="#">Proyectos</a></li>
+          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#">Inicio</a></li>
+          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#">Acerca de mi</a></li>
+          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#">Formacion</a></li>
+          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#">Habilidades</a></li>
+          <li className={`${styles.navLi} ${clicked ? `${styles.active}`: ''}`}><a className={`${styles.navA} ${clicked ? `${styles.active}`: ''}`} onClick={handleClick2} href="#">Proyectos</a></li>
         </ul>
 
     </div>
