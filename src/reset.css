@@ -64,9 +64,9 @@ button {
     cursor: pointer;
 }
 
-:root{
-    --color-fondo:#1f232d;
-    --color-letras:#ffffff;
+:root {
+    --color-fondo: #1f232d;
+    --color-letras: #ffffff;
     --color-titulos: #00eeff;
 }
 
@@ -75,6 +75,7 @@ body {
     background: var(--color-fondo);
     color: var(--color-letras);
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Quitar flechas en input number */
@@ -84,4 +85,6 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-input[type=number] {-moz-appearance: textfield;}
+input[type=number] {
+    -moz-appearance: textfield;
+}

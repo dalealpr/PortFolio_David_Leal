@@ -1,10 +1,18 @@
 import React from 'react'
 import styles from '../header/Header.module.css'
 import Foto from '../../img/foto.jpg'
+// Animaciones
+import AOS from 'aos';
+
 
 function Header() {
+    // Animaciones
+    AOS.init();
+
     return (
-        <div className={styles.cont_header} id='header_cont'>
+
+        <div data-aos="fade-down" data-aos-delay="250" data-aos-duration="1200" data-aos-mirror="true"
+            data-aos-once="false" className={styles.cont_header} id='header_cont'>
 
             <section className={styles.headerSect_imgBr}>
                 <img className={styles.header_imgFoto} src={Foto} alt="" />
@@ -27,7 +35,9 @@ function Header() {
             <section className={styles.headerSect_img}>
                 <img className={styles.header_imgFoto} src={Foto} alt="" />
             </section>
+
         </div>
+
     )
 }
 
