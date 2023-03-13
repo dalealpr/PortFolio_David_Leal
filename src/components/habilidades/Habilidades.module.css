@@ -1,0 +1,18 @@
+.cont_habilidades {
+    width: 80%;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cont_EstrHabl {
+    width: 90%;
+    height: 60%;
+
+    background: url(../../img/nave_cont.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

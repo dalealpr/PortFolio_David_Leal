@@ -22,7 +22,7 @@ function AcercaDeMi() {
                 <p className={styles.adm_p}>Joven estudiante de ingenieria informatica en busca
                     de empleo para desarrollarse en el mundo laboral.
                     Actualmente me encuentro enfocado en el area de desarrollo
-                    Front End, aunque tambien cuento con conocimientos de BackEnd
+                    Front End, aunque tambien cuento con conocimientos de BackEnd.
                 </p>
             </section>
 
