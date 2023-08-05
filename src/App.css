@@ -1,13 +1,13 @@
 /* VARIABLES */
-:root{
+:root {
     --color-letras: #ffffff;
-    --color-titulos: #00eeff;
+    --color-titulos: #3feeff;
     --color-burguer: #ffffff;
-    --color-fondo:#1f232d;
+    --color-fondo: #1f232d;
 }
 
 /* Iconos */
-.bx{
+.bx {
     color: var(--color-burguer);
     padding: 8px;
     border: 1px solid var(--color-titulos);
@@ -15,7 +15,7 @@
     font-size: 26px;
 }
 
-.bx:hover{
+.bx:hover {
     color: var(--color-titulos);
     padding: 8px;
     border: 1px solid var(--color-titulos);
