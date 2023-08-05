@@ -6,14 +6,27 @@
     --color-fondo: #1f232d;
 }
 
+.navPrCont {
+    background-color: #0c1f22;
+    width: 100%;
+    height: 90px;
+
+    background: url(../../img/fondofuturista7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    position: fixed;
+    justify-content: center;
+}
+
 /* Contenedor NAV */
 .navCont {
     width: 80%;
     height: 90px;
 
-
     display: flex;
-    position: fixed;
     align-items: center;
     justify-content: space-between;
 }

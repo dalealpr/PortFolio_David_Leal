@@ -8,12 +8,14 @@ import Habilidades from '../components/habilidades/Habilidades'
 
 function PaginaPrincipal() {
   return (
-    <div className={styles.cont_pagPrincip}>
+    <>
       <Nav />
-      <Header />
-      <AcercaDeMi />
-      <Habilidades />
-    </div>
+      <div className={styles.cont_pagPrincip}>
+        <Header />
+        <AcercaDeMi />
+        <Habilidades />
+      </div>
+    </>
   )
 }
 
